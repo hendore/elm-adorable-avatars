@@ -17,15 +17,17 @@ Basic Usage
 -----------
 
 ```elm
-module Demo exposing (..)
+module Main exposing (..)
 
+import Html.Attributes
 import AdorableAvatars
 
 
-view =
+main =
     let
         size =
             128
+
         identifier =
             "elm-adorable-avatars"
     in
@@ -33,7 +35,7 @@ view =
 
 
 avatarStyle =
-    [ ("borderRadius", "50%") ]
+    [ ( "borderRadius", "50%" ) ]
 ```
 
 Maintainers
