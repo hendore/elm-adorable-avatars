@@ -4,6 +4,8 @@ elm-adorable-avatars
 Simple, elegant and adorable avatars provided by
 [http://avatars.adorable.io](http://avatars.adorable.io/).
 
+![example avatar](https://api.adorable.io/avatars/128/elm-adorable-avatars.png)
+
 Installing
 ----------
 
