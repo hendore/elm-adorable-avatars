@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "summary": "Simple, elegant and adorable placeholder avatars provided by avatars.adorable.io",
+    "summary": "Simple, elegant and adorable avatars provided by avatars.adorable.io",
     "repository": "https://github.com/hendore/elm-adorable-avatars.git",
     "license": "BSD3",
     "source-directories": [

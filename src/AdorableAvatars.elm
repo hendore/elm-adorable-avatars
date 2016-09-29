@@ -1,7 +1,7 @@
 module AdorableAvatars exposing (buildUrl, img)
 
-{-| This library fills a bunch of important niches in Elm. A `Maybe` can help
-you with optional arguments, error handling, and records with optional fields.
+{-| Simple, elegant and adorable avatars provided by
+[http://avatars.adorable.io](http://avatars.adorable.io/).
 
 # Urls
 @docs buildUrl
@@ -16,13 +16,13 @@ import Html.Attributes
 import String
 
 
-{-| The adorable avatars base api url
+{-| The adorable avatars base api url.
 -}
 endpoint =
     "https://api.adorable.io/avatars"
 
 
-{-| Returns a url to an adorable avatar.
+{-| Builds a url to an adorable avatar from *size* and *identifier*.
 
     buildUrl 128 "foobar" == "https://api.adorable.io/avatars/128/foobar"
 -}

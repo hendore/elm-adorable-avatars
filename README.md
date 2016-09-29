@@ -1,7 +1,8 @@
 elm-adorable-avatars
 ============
 
-Simple, elegant and adorable placeholder avatars provided by [Adorable Avatars](http://avatars.adorable.io/).
+Simple, elegant and adorable avatars provided by
+[http://avatars.adorable.io](http://avatars.adorable.io/).
 
 Maintainers
 -----------
