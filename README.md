@@ -4,6 +4,36 @@ elm-adorable-avatars
 Simple, elegant and adorable avatars provided by
 [http://avatars.adorable.io](http://avatars.adorable.io/).
 
+Installing
+----------
+
+```sh
+elm-package install hendore/elm-adorable-avatars
+```
+
+Basic Usage
+-----------
+
+```elm
+module Demo exposing (..)
+
+import AdorableAvatars
+
+
+view =
+    let
+        size =
+            128
+        identifier =
+            "elm-adorable-avatars"
+    in
+        AdorableAvatars.img [ Html.Attributes.style avatarStyle ] size identifier
+
+
+avatarStyle =
+    [ ("borderRadius", "50%") ]
+```
+
 Maintainers
 -----------
 
