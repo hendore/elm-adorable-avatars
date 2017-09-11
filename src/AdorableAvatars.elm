@@ -8,7 +8,6 @@ module AdorableAvatars exposing (buildUrl, img)
 
 # View Helpers
 @docs img
-
 -}
 
 import Html
@@ -28,7 +27,7 @@ endpoint =
 -}
 buildUrl : Int -> String -> String
 buildUrl size identifier =
-    (String.join "/" [ endpoint, (toString size), identifier ]) ++ ".png"
+    String.join "/" [ endpoint, (toString size), identifier ]
 
 
 {-| View helper for creating an img node.

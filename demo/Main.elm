@@ -1,29 +1,17 @@
 module Main exposing (..)
 
 import Html
-import Html.App
 import Html.Attributes
-import Html.Events
 import AdorableAvatars
 
-
-type alias Model =
-    { identifier : Maybe String
-    , size : Int
-    }
-
-
-initialModel =
-    Model "example@email.com" 128
-
-
-view { size, identifier } =
-    AdorableAvatars.img [] size identifier
-
-
 main =
-    Html.App.beginnerProgram
-        { model = initialModel
-        , update = update
-        , view = view
-        }
+    let
+        size =
+            128
+        identifier =
+            "example-username"
+    in
+        Html.div []
+            [ AdorableAvatars.img [] size identifier
+            , Html.p [] [ Html.text (AdorableAvatars.buildUrl size identifier) ]
+            ]
